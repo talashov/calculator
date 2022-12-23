@@ -13,10 +13,10 @@ button.onclick = function () {
   const num_2 = +input_2.value.trim();
   const calc = calc_1.value.trim();
   
-  let result = `акая операция не существует ${calc}`;
+  let result = `Такая операция не существует ${calc}`;
 
   if (!num_1 || !num_2 || !calc) {
-    result = 'нужно заполнить поля'
+    result = 'Нужно заполнить поля'
   }
   
   switch (calc) {
