@@ -7,6 +7,7 @@
 
 body {
   background-color: #f69a73;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .main {
@@ -15,7 +16,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 input {
@@ -33,7 +34,6 @@ input {
 .btn {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
-  width: 10%;
   padding: 10px;
   margin-top: 5px;
   border: none;
